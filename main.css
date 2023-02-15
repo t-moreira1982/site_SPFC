@@ -160,3 +160,74 @@ footer {
     font-size: 15px;
     font-weight: bold;
 }
+
+@media (min-width:1100px) and (max-width: 1300px){
+    header {
+        padding: 16px 50px;
+    }
+    
+    section .container {
+        align-items: flex-start;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1099px) {
+    header {
+        padding: 16px 100px;
+    }
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    header nav li {
+        display: flex;
+        margin-left: 6px;
+        margin-right: 100px;
+        font-size: 14px;
+    }
+
+    .container {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    }
+
+    .trofeus {
+        width: 550px;
+        margin: 16px 0;
+    }
+
+    #contact {
+        padding: 30px;
+    }
+
+    .contact-methods {
+        display: block;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .social {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    #contact input {
+        margin-bottom: 24px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+}
